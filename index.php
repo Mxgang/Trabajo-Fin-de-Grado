@@ -1,11 +1,11 @@
 <?php
 
-//https://api.telegram.org/bot1894214893:AAFqDTTlTWz18B3zWhyPgJpqM7eaLf_wZPI/setWebhook?url=https://compunctious-zip.000webhostapp.com/index.php SET WEBHOOK
+//https://api.telegram.org/API TOKEN/setWebhook?url=https://compunctious-zip.000webhostapp.com/index.php SET WEBHOOK
 
 
 //Funciones para conectar el bot con el script.
 
-$path = "https://api.telegram.org/bot1894214893:AAFqDTTlTWz18B3zWhyPgJpqM7eaLf_wZPI";
+$path = "https://api.telegram.org/TOKEN";
 
 $update = file_get_contents('php://input');
 $update = json_decode($update,TRUE);
